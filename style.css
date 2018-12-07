@@ -1,0 +1,29 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+      body { 
+        font: 20px; 
+        
+      }
+      form {
+        background: DarkCyan; padding: 20px; position: fixed; bottom: 0; width: 100%; 
+        
+      }
+      form input {
+        border: 0; padding: 30px; width: 90%; margin-right: .5%;
+        }
+      form button { 
+        width: 9%; background: coral; border: none; padding: 10px;
+        }
+      #messages { 
+        list-style-type: none; margin: 0; padding: 0;
+        }
+      #messages li {
+        padding: 5px 10px;background:LightBlue; 
+        
+      }
+      #messages li:nth-child(odd) {
+        background:teal;
+        }
+      #messages {
+        margin-bottom: 40px; background:LightBlue;
+        
+      }

@@ -1,21 +1,69 @@
 <!doctype html>
 <html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   
   <head>
+       <div class="w3-panel w3-gray">
+    <h1><b>Messanger App by Mongodb</b></h1></r><br>
+  
+  </div><br>
     <title>Socket.IO chat</title>
+
     <style>
-      * { margin: 0; padding: 0; box-sizing: border-box; }
-      body { font: 13px Helvetica, Arial; }
-      form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
-      form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
-      form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
-      #messages { list-style-type: none; margin: 0; padding: 0; }
-      #messages li { padding: 5px 10px; }
-      #messages li:nth-child(odd) { background: #eee; }
-      #messages { margin-bottom: 40px }
+      * 
+      body { 
+        font: 20px; 
+        
+      }
+      form {
+        background: #7F5555;
+        padding: 20px;
+        position: fixed;
+        bottom: 0; width: 50%; 
+        
+      }
+      form input {
+        border: 0; padding: 30px; width: 90%; margin-right: .5%;
+        }
+      form button { 
+        width: 9%;
+        padding: 10px;
+        background: #A81818; 
+        border: black; 
+        }
+      #messages { 
+        list-style-type: none;
+        margin: 20px; 
+        padding: 20px;
+        border: black;
+         width: 50%;
+        
+        }
+      #messages li {
+        padding: 5px 10px;
+        background:#F3EBEB; 
+         width: 50%;
+         text-align:left;
+        
+      }
+      #messages li:nth-child(odd) {
+        background:#CAE9E3;
+        width: 50%;
+         text-align:right;
+         
+        }
+      #messages {
+        margin-bottom: 40px; 
+        background:White;
+        
+      }
     </style>
   </head>
   <body>
     <ul id="messages"></ul>
+    
     <form action="">
       <input id="m" autocomplete="off" /><button>Send</button>
     </form>
